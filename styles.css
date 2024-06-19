@@ -1,0 +1,29 @@
+.backGround{
+    background: #181818;
+}
+
+.upperPart{
+    flex: 0 0 15%;
+    display: flex;
+}
+
+.mainContent{
+    flex: 1;
+    display: flex;
+}
+
+.lowerPart{
+    flex: 0 0 15%;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.unshrinkable{
+    display: flex;
+    flex-shrink: 0;
+}
